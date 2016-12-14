@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="Up" href="index.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Corecount" rel="Chapter" href="Corecount.html"><title>Corecount</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Module <a href="type_Corecount.html">Corecount</a></h1>
+
+<pre><span class="keyword">module</span> Corecount: <code class="code"><span class="keyword">sig</span></code> <a href="Corecount.html">..</a> <code class="code"><span class="keyword">end</span></code></pre><div class="info module top">
+Get a count of cores on the current machine, simple exposure of
+    http://en.cppreference.com/w/cpp/thread/thread/hardware_concurrency<br>
+</div>
+<hr width="100%">
+
+<pre><span id="EXCEPTIONCount_not_defined"><span class="keyword">exception</span> Count_not_defined</span></pre>
+<div class="info ">
+Raised when the value is not well defined or not computable<br>
+</div>
+
+<pre><span id="VALcount"><span class="keyword">val</span> count</span> : <code class="type">unit -> Nativeint.t</code></pre><div class="info ">
+Returns the number of cores on the current machine<br>
+</div>
+</body></html>
