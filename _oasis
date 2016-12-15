@@ -4,7 +4,7 @@ OCamlVersion: >= 4.03.0
 Name:         corecount
 Version:      1.0.0
 Maintainers:  Edgar Aroutiounian
-Homepage:     http://hyegar.com
+Homepage:     https://github.com/fxfactorial/ocaml-corecount
 Synopsis:     Get count of cores on machine
 Authors:      Edgar Aroutiounian <edgar.factorial@gmail.com>
 License:      BSD-3-clause
