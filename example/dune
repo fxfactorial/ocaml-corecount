@@ -1,0 +1,4 @@
+(executable
+  (name stress_test)
+  (modules stress_test)
+  (libraries corecount))
