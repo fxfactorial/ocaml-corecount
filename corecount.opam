@@ -1,0 +1,15 @@
+opam-version: "2.0"
+name: "corecount"
+version: "1.0.0"
+maintainer: "Edgar Aroutiounian <edgar.factorial@gmail.com>"
+authors: [ "Edgar Aroutiounian <edgar.factorial@gmail.com>" ]
+license: "BSD-3-clause"
+homepage: "https://github.com/fxfactorial/ocaml-corecount"
+dev-repo: "git://github.com/fxfactorial/ocaml-corecount.git"
+bug-reports: "https://github.com/fxfactorial/ocaml-corecount/issues"
+tags: [ "clib:stdc"  ]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [ "dune" {build & >= "1.11.0"} ]
+synopsis: "Get a count of cores on machine via C++11s stdlib"

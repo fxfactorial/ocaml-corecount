@@ -1,0 +1,7 @@
+(library
+  (name corecount)
+  (public_name corecount)
+  (modules corecount)
+  (cxx_names corecount_stubs)
+  (c_library_flags -lstdc++)
+  (cxx_flags --std=c++11 -x c++ -fPIC))
